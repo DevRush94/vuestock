@@ -2,12 +2,12 @@ import Vuex from 'vuex';
 import Vue from 'vue';
 import stockdata from './modules/stockdata';
 
-//load Vuex
+// Load Vuex
 Vue.use(Vuex);
 
-//Create Store
+// Create store
 export default new Vuex.Store({
  modules: {
   stockdata
  }
-})
+});
