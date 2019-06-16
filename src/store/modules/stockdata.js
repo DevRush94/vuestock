@@ -11,9 +11,9 @@ const getters = {
 const actions = {
  async setstockdata({ commit }) {
   const response = await axios.get(
-   'https://jsonplaceholder.typicode.com/todos'
+   'https://raw.githubusercontent.com/DevRush94/vuestock/master/src/store/modules/db.json'
   );
-  commit('setstockdata', response.data);
+  commit('setstockdata', response);
  }
 };
 

@@ -3,7 +3,12 @@
   <div>
     Live Stocks
     <div class="stockdata">
-      <div v-for="todo in allstockdata" :key="todo.id" class="todo">{{ todo.title }}</div>
+      <div v-for="todo in allstockdata" :key="todo.id" class="todo">
+        <!-- {{todo.deal}} -->
+        <div v-for="todo2 in todo.deal" :key="todo2.id" class="todo">
+         Dealer Name : {{todo2.dealer}}
+        </div>
+      </div>
     </div>
   </div>
 </template>
