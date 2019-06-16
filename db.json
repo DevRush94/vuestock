@@ -1,0 +1,326 @@
+{
+  "deal": [
+    {
+      "dealer": "sdhfsjdfh",
+      "counterparty": "ajdhakjd",
+      "id": "kgXn9A2"
+    }
+  ],
+  "all_summary_page": [
+    {
+      "Status_Authorise": "200",
+      "Status_Confirm": "204",
+      "Status_Settlement": "200",
+      "Status_Sett_Auth": "150",
+      "Corpor_Event_Pending": "200",
+      "Upload_Pending": "14",
+      "Upload_Confirm": "12",
+      "Recon_Trade": "70",
+      "Recon_Stock": "50",
+      "Recon_Bank": "20",
+      "EOD_Done": "10",
+      "EOD_Pending": "5"
+    }
+  ],
+  "corporate_events": [
+    {
+      "Dividends": "80",
+      "Interest": "40",
+      "Redemptions": "15",
+      "Others": "35"
+    }
+  ],
+  "corporate_event_details": [
+    {
+      "Asset_Class": "Equity",
+      "Security_Description": "Hdfc Bank Ltd",
+      "Dividend_pu": "0.258",
+      "Event_type": "EQ Dividend",
+      "Rec_Date": "22 May'19",
+      "Total_Quantity": "5000",
+      "Total_Amount": "1290",
+      "Dividend_Rate": "0.25",
+      "Portfolio": [
+        {
+          "name": "Balance Fund",
+          "value": "500"
+        },
+        {
+          "name": "Growth Fund",
+          "value": "790"
+        }
+      ],
+      "Current_action": "Process",
+      "Next_action": "View Log"
+    },
+    {
+      "Asset_Class": "Mutual Fund",
+      "Security_Description": "Reliance Life",
+      "Dividend_pu": "0.154",
+      "Event_type": "MF Dividend",
+      "Rec_Date": "19 May'19",
+      "Total_Quantity": "1500",
+      "Total_Amount": "231",
+      "Dividend_Rate": "0.15",
+      "Portfolio": [
+        {
+          "name": "Balance Fund",
+          "value": "1000"
+        },
+        {
+          "name": "Growth Fund",
+          "value": "500"
+        }
+      ],
+      "Current_action": "Process",
+      "Next_action": "View Log"
+    }
+  ],
+  "eod_process": [
+    {
+      "Process_Name": "Interest Accrual",
+      "Current_Status": "Successfully Generated for 100 Securities with 20 error",
+      "Current_Action": "Process",
+      "Next_Action": "View Exeption",
+      "Completion_status": "100%"
+    },
+    {
+      "Process_Name": "Amortisation/Accretion",
+      "Current_Status": "Succesfull Calculated for 125 records",
+      "Current_Action": "Process",
+      "Next_Action": "View Exeption",
+      "Completion_status": "100%"
+    },
+    {
+      "Process_Name": "MTM Valuation",
+      "Current_Status": "Successfully Calculated for 1245 Records",
+      "Current_Action": "Process",
+      "Next_Action": "View Exeption",
+      "Completion_status": "100%"
+    },
+    {
+      "Process_Name": "Generate Accounting",
+      "Current_Status": "Calculation under process",
+      "Current_Action": "Process",
+      "Next_Action": "View Exeption",
+      "Completion_status": "75%"
+    },
+    {
+      "Process_Name": "Generate NAV",
+      "Current_Status": "Waiting for Other processes to complete",
+      "Current_Action": "Process",
+      "Next_Action": "View Exeption",
+      "Completion_status": "0%"
+    },
+    {
+      "Process_Name": "Generate Management Fees",
+      "Current_Status": "Waiting to complete NAV process",
+      "Current_Action": "Process",
+      "Next_Action": "View Exeption",
+      "Completion_status": "75%"
+    }
+  ],
+  "upload_details": [
+    {
+      "Upload_Name": "BSE Bhav Copy",
+      "Current_Status": "Available",
+      "Current_Action": "Process",
+      "Next_Action": "View",
+      "Completion_status": "50%"
+    },
+    {
+      "Upload_Name": "CRISIL Yield Cure",
+      "Current_Status": "Pending",
+      "Current_Action": "Upload",
+      "Next_Action": "Process",
+      "Completion_status": "50%"
+    },
+    {
+      "Upload_Name": "AMFI NAV",
+      "Current_Status": "100 Records Processed Successfully",
+      "Current_Action": "View",
+      "Next_Action": "View",
+      "Completion_status": "50%"
+    }
+  ],
+  "deal_summary": [
+    {
+      "Authorise_EQ": "150",
+      "Authorise_FIS": "250",
+      "Authorise_OTH": "350",
+      "Confirm_EQ": "150",
+      "Confirm_FIS": "150",
+      "Confirm_OTH": "150",
+      "Settle_EQ": "150",
+      "Settle_FIS": "150",
+      "Settle_OTH": "150",
+      "Auth_Settle_EQ": "150",
+      "Auth_Settle_FIS": "150",
+      "Auth_Settle_OTH": "150"
+    }
+  ],
+  "deal_details": [
+    {
+      "id": "851",
+      "deal_ticket_no": "eqtp/2018/851",
+      "dealer": "Subodh",
+      "trade_date": "25-09-2018 18:00:07",
+      "settle_date": "25-09-2018",
+      "trade_portfolio": "ind non par vip saral sanchay portfolio:40",
+      "portfolio": [
+        {
+          "name": "ind non par vip saral sanchay portfolio",
+          "value": "40"
+        },
+        {
+          "name": "Growth Fund",
+          "value": "30"
+        },
+        {
+          "name": "balance Fund",
+          "value": "20"
+        }
+      ],
+      "asset_class": "Equity",
+      "security_desc": "HDFC Bank",
+      "counterparty": "HDFC Bank",
+      "quantity": "5000",
+      "price": "111.5043556",
+      "ytm": "8.13%",
+      "acc_int": "1.2345",
+      "broker": "HDFC Bank'",
+      "exchange": "nse",
+      "total_charge": "14350",
+      "charge": [
+        {
+          "name": "brokerage",
+          "value": 12000
+        },
+        {
+          "name": "service tax",
+          "value": 2350
+        }
+      ],
+      "total_con": "4546465465",
+      "trans_type": "equity purchase",
+      "deal_status": "authorise",
+      "next_action": "confirm",
+      "Bank_Name": "ACCESS BANK PLC",
+      "Account_Number": "000012385298"
+    },
+    {
+      "id": "852",
+      "deal_ticket_no": "P/2009/B65",
+      "dealer": "Acharya",
+      "trade_date": "30-09-2018 18:00:07",
+      "settle_date": "30-09-2018",
+      "trade_portfolio": "ind non par vip saral sanchay portfolio:40",
+      "portfolio": [
+        {
+          "name": "ind non par vip saral sanchay portfolio",
+          "value": "40"
+        },
+        {
+          "name": "Growth Fund",
+          "value": "30"
+        },
+        {
+          "name": "balance Fund",
+          "value": "20"
+        }
+      ],
+      "asset_class": "Bonds",
+      "security_desc": "8.00% shriram transport finance co. ltd. b & d 12-06-2020 ppd 17-18 e-08 opt ii",
+      "counterparty": "cholamandalam investment & finance company limited",
+      "quantity": "5000",
+      "price": "101.2451",
+      "ytm": "7.13%",
+      "acc_int": "5.234554",
+      "broker": "cholamandalam investment & finance company limited",
+      "exchange": "nse",
+      "total_charge": "14350",
+      "charge": [
+        {
+          "name": "brokerage",
+          "value": 12000
+        },
+        {
+          "name": "service tax",
+          "value": 2350
+        }
+      ],
+      "total_con": "4546465465",
+      "trans_type": "Purchase",
+      "deal_status": "Confirm",
+      "next_action": "Settle",
+      "Bank_Name": "ACCESS BANK PLC",
+      "Account_Number": "000012385298"
+    },
+    {
+      "id": "853",
+      "deal_ticket_no": "MFP/2018/851",
+      "dealer": "Subodh",
+      "trade_date": "23-09-2019 18:00:07",
+      "settle_date": "23-09-2019",
+      "trade_portfolio": "ind non par vip saral sanchay portfolio:40",
+      "portfolio": [
+        {
+          "name": "ind non par vip saral sanchay portfolio",
+          "value": "40"
+        },
+        {
+          "name": "Growth Fund",
+          "value": "30"
+        },
+        {
+          "name": "balance Fund",
+          "value": "20"
+        }
+      ],
+      "asset_class": "Mutual Fund",
+      "security_desc": "Reliance Industries Growth Fund",
+      "counterparty": "Reliance Industries Growth Fund",
+      "quantity": "5000",
+      "price": "111.5043556",
+      "ytm": "8.13%",
+      "acc_int": "1.2345",
+      "broker": "NONE",
+      "exchange": "nse",
+      "total_charge": "14350",
+      "charge": [
+        {
+          "name": "brokerage",
+          "value": 0
+        }
+      ],
+      "total_con": "4546465465",
+      "trans_type": "MF purchase",
+      "deal_status": "Settled",
+      "next_action": "Auth Settlement",
+      "Bank_Name": "ACCESS BANK PLC",
+      "Account_Number": "000012385298"
+    }
+  ],
+  "uploads": [
+    {
+      "name": "",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "gaurav"
+    },
+    {
+      "name": "test",
+      "id": 3
+    },
+    {
+      "name": "Gayatri",
+      "id": 4
+    },
+    {
+      "name": "121212",
+      "id": 5
+    }
+  ]
+}
