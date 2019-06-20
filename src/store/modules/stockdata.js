@@ -19,7 +19,7 @@ const actions = {
 
 const mutations = {
  setstockdata: (state, stockdata) => (state.stockdata = stockdata),
- newTodo: (state, todo) => state.stockdata.unshift(todo)
+ newsdata: (state, sdata) => state.stockdata.unshift(sdata)
 };
 export default {
  state,
