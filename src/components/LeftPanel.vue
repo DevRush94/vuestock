@@ -4,72 +4,72 @@
     <div v-for="sdata in allstockdata" :key="sdata.id" class="sdata">
       <div v-for="sidedata in sdata.all_summary_page" :key="sidedata.id">
         <div class="m-n">
-          <div class="title">Status</div>
+          <div class="title f-sm">Status</div>
           <div class="sdatawrap">
-            <div class="info">
+            <div class="info f-xs">
               Auth
-              <span class="s-block">{{sidedata.Status_Authorise}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Status_Authorise}}</span>
             </div>
-            <div class="info">
+            <div class="info f-xs">
               Confirm
-              <span class="s-block">{{sidedata.Status_Confirm}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Status_Confirm}}</span>
             </div>
           </div>
         </div>
         <div class="m-n">
-          <div class="title">Corporate Events</div>
+          <div class="title f-sm">Corporate Events</div>
           <div class="sdatawrap">
-            <div class="info">
+            <div class="info f-xs">
               Pending
-              <span class="s-block">{{sidedata.Corpor_Event_Pending}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Corpor_Event_Pending}}</span>
             </div>
           </div>
         </div>
         <div class="m-n">
-          <div class="title">Uploads</div>
+          <div class="title f-sm">Uploads</div>
           <div class="sdatawrap">
-            <div class="info">
+            <div class="info f-xs">
               Pending
-              <span class="s-block">{{sidedata.Upload_Pending}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Upload_Pending}}</span>
             </div>
-            <div class="info">
+            <div class="info f-xs">
               Confirm
-              <span class="s-block">{{sidedata.Upload_Confirm}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Upload_Confirm}}</span>
             </div>
           </div>
         </div>
         <div class="m-n">
-          <div class="title">Reconcilation</div>
+          <div class="title f-sm">Reconcilation</div>
           <div class="sdatawrap">
-            <div class="info">
+            <div class="info f-xs">
               Trade
-              <span class="s-block">{{sidedata.Recon_Trade}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Recon_Trade}}</span>
             </div>
-            <div class="info">
+            <div class="info f-xs">
               Stock
-              <span class="s-block">{{sidedata.Recon_Stock}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Recon_Stock}}</span>
             </div>
-            <div class="info">
+            <div class="info f-xs">
               Bank
-              <span class="s-block">{{sidedata.Recon_Bank}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.Recon_Bank}}</span>
             </div>
           </div>
         </div>
         <div class="m-n">
-          <div class="title">EOD Process</div>
+          <div class="title f-sm">EOD Process</div>
           <div class="sdatawrap">
-            <div class="info">
+            <div class="info f-xs">
               Done
-              <span class="s-block">{{sidedata.EOD_Done}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.EOD_Done}}</span>
             </div>
-            <div class="info">
+            <div class="info f-xs">
               Pending
-              <span class="s-block">{{sidedata.EOD_Pending}}</span>
+              <span class="s-block f-lg f-semibold">{{sidedata.EOD_Pending}}</span>
             </div>
           </div>
         </div>
       </div>
-      <!-- <span class="s-block">{{sdata}}</span> -->
+      <!-- <span class="s-block f-lg f-semibold">{{sdata}}</span> -->
     </div>
   </div>
 </template>

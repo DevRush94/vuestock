@@ -11,7 +11,8 @@ const getters = {
 const actions = {
  async setstockdata({ commit }) {
   const response = await axios.get(
-   'https://raw.githubusercontent.com/DevRush94/vuestock/master/src/store/modules/db.json'
+   // 'https://raw.githubusercontent.com/DevRush94/vuestock/master/src/store/modules/db.json'
+   '/db.json'
   );
   commit('setstockdata', response);
  }

@@ -23,9 +23,10 @@ export default {
   }
 };
 </script>
-
 <style>
-@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+</style>
+<style>
 * {
   -webkit-overflow-scrolling: touch;
 }
@@ -42,6 +43,7 @@ html {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 body {
   line-height: 1;
@@ -390,5 +392,26 @@ strong {
 .s-block {
   padding-top: 5px;
   display: block;
+}
+.f-xs {
+  font-size: 13px;
+}
+.f-sm {
+  font-size: 15px;
+}
+.f-md {
+  font-size: 16px;
+}
+.f-lg {
+  font-size: 17px;
+}
+.f-xl {
+  font-size: 18px;
+}
+.f-ll {
+  font-size: 20px;
+}
+.f-hd {
+  font-size: 24px;
 }
 </style>
